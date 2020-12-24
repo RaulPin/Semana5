@@ -1,0 +1,12 @@
+.form {
+    background-color: rgba(74, 113, 187, 0.856);
+    box-sizing: border-box;
+    border: solid rgba(2, 2, 0, 0);
+    padding: 20px;
+    box-shadow: rgba(138, 42, 66, 0.151) 5px 5px 5px 10px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    justify-content: space-around;
+    display: block;
+
+}

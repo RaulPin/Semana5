@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form">
+        <form onsubmit="event.preventDefault()"  action="ejemplo.php">
+            <label for="trademark">Marca</label>
+            <input type="text" id="trademark" placeholder="Marca">
+            <label for="model">Modelo</label>
+            <input type="text" id="model" placeholder="Modelo">
+            <label for="color">Color</label>
+            <input type="text" id="color" placeholder="Color">
+            <label for="year">Año</label>
+            <input type="number" id="year" placeholder="Año">
+            <label for="price">Precio</label>
+            <input type="number" id="price" placeholder="Precio">
+              <input type="submit" onclick="addCar()" value="Enviar">
+              <input type="reset" value="Borrar">
+            </p>
+          </form>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                  <th>Marca</th>
+                  <th>Modelo</th>
+                  <th>Color</th>
+                  <th>Año</th>
+                  <th>Precio</th>
+                  <th>Foto</th>
+                  <th>Eliminar</th>
+                  <th>Actualizar</th>
+                </tr>
+            </thead>
+            <tbody id="container-cars">
+
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+<script src="js.js"> </script>
+</html>
